@@ -1,0 +1,464 @@
+    /*site-nav部分开始*/
+    .site-nav {
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        background-color: #F1F1F1;
+    }
+    .site-nav-send, .site-nav-right .fore {
+        position: relative;
+        padding: 0 26px 0 9px;
+        float: left;
+    }
+    .site-nav-send:hover {
+        background-color: #fff;
+    }
+    .site-nav-city  {
+        float: right;
+    }
+    .site-nav-city i, .site-nav-right i {
+        position: absolute;
+        top: 12px;
+        right: 11px;
+        width: 11px;
+        height: 6px;
+        overflow: hidden;
+    }
+    .site-nav-city s,.site-nav-right s  {
+        position: absolute;
+        top: -15px;
+    }
+    .site-nav-right li {
+        padding: 0 10px;
+        float: left;
+    }
+    .site-nav-right .line {
+        padding: 0;
+        width: 1px;
+        height: 12px;
+        margin-top: 9px;
+        background-color: #DDD;
+    }
+    .site-nav-right .jdtel {
+        padding-left: 25px;
+    }
+
+    .jdtel span {
+        position: absolute;
+        top: 5px;
+        left: 6px;
+        width: 15px;
+        height: 20px;
+        background: url(../images/tel.png) no-repeat left top;
+    }
+    /*site-nav部分结束*/
+    /*top-banner部分start*/
+    .top-banner {
+        width: 100%;
+        background-color: #33BE31;
+    }
+    .tb {
+        position: relative;
+    }
+    .close-banner {
+        position: absolute;
+        top: 5px;
+        right: 0;
+        width: 19px;
+        height: 19px;
+        background: url(../images/close-banner.png) no-repeat;
+    }
+    .close-banner:hover {
+        background-position: bottom;
+    }
+    /*top-banner部分end*/
+
+    /*search部分start*/
+    .search {
+        padding: 20px 0 20px;
+    }
+    .search-logo {
+        width: 362px;
+        height: 60px;
+        float: left;
+    }
+    .search-logo a {
+        display: block;
+        width: 362px;
+        height: 60px;
+        text-indent: -2222em;
+        background: url(../images/logo.png) no-repeat;
+    }
+    .search-inputs {
+        width: 605px;
+        height: 31px;
+        float: left;
+    }
+    .search-inputs input {
+        float: left;
+        width: 450px;
+        height: 32px;
+        border: 2px solid #B61D1D;
+        border-right: none;
+        padding-left: 4px;
+        font: 14px/32px "microsoft yahei";
+        color: #99A7BF;
+    }
+    .search-inputs button {
+        float: left;
+        width: 82px;
+        height: 34px;
+        background-color: #B61D1D;
+        cursor: pointer;
+        color: #fff;
+        font: 16px/36px "微软雅黑";
+    }
+    .search-car {
+        position: relative;
+        width: 85px;
+        height: 34px;
+        line-height: 34px;
+        border: 1px solid #DFDFDF;
+        float: right;
+        padding: 0 11px 0 43px;
+        margin-right: 68px;
+    }
+    .search-car .search-car-icon1 {
+        position: absolute;
+        top: 10px;
+        left: 18px;
+        width: 18px;
+        height: 13px;
+        background:url(../images/tel.png) 0 -59px;
+    }
+    .search-car .search-car-icon2 {
+        position: absolute;
+        right: 10px;
+        color: #C4C4C4;
+        font: 13px/34px "simsun"
+    }
+    .search-car .search-car-icon3 {
+        position: absolute;
+        top: -5px;
+        width: 16px;
+        height: 14px;
+        background-color: #C81623;
+        text-align: center;
+        line-height: 14px;
+        color: #fff;
+        border-radius: 7px 7px 7px 0;
+    }
+
+    .search-morea {
+        width: 605px;
+        height: 28px;
+        line-height: 28px;
+        float: left;
+    }
+    .search-morea a {
+        margin-right: 8px;
+    }
+    /*search部分end*/
+    /*shortcut部分开始*/
+    .shortcut {
+        width: 100%;
+        height: 44px;
+        border-bottom: 2px solid #B1191A;
+    }
+    .shortcut-dropdown {
+        width: 210px;
+        height: 44px;
+        background-color: #B1191A;
+        float: left;
+    }
+    .shortcut-dropdown-all a {
+        display: block;
+        width: 200px;
+        height: 44px;
+        color: #fff;
+        padding-left: 10px;
+        font: 15px/44px "microsoft yahei";
+    }
+    .shortcut-dropdown-one {
+        position: relative;
+        z-index: 1;
+        width: 209px;
+        height: 465px;
+        margin-top: 1px;
+        border-left: 1px solid #B1191A;
+        border-bottom: 1px solid #B1191A;
+        background-color: #C81623;
+    }
+    .shortcut-dropdown-one li {
+        width: 200px;
+        height: 31px;
+        line-height: 31px;
+        padding-left: 10px;
+    }
+    .shortcut-dropdown-one li:hover {
+        background-color: #fff;
+    }
+    .shortcut-dropdown-one li:hover a {
+        color: #C81623;
+    }
+    .shortcut-dropdown-one a {
+        font: 14px/31px "microsoft yahei";
+        color: #fff;
+    }
+    .shortcut-items {
+        width: 728px;
+        float: left;
+    }
+    .shortcut-items li {
+        float: left;
+    }
+    .shortcut-items a {
+        display: block;
+        padding: 0 20px;
+        color: #333;
+        font: 16px/44px "microsoft yahei";
+    }
+    .shortcut-img {
+        float: right;
+        margin-top: -10px;
+        margin-right: 49px;
+    }
+    /*shortcut部分结束*/
+    /*sub-banner部分开始*/
+    .sub-banner {
+        position: relative;
+    }
+    .sub-banner a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 644px;
+        background: url(../images/sub-banner.jpg) no-repeat center top;
+    }
+    /*sub-banner部分结束*/
+    /*main部分开始*/
+    .main-slide {
+        position: relative;
+        margin: 12px 0 0 220px;
+        float: left;
+    }
+    .main-slide ul {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        margin-left: -66px;
+    }
+    .main-slide li {
+        float: left;
+        width: 18px;
+        height: 18px;
+        background-color: #3E3E3E;
+        text-align: center;
+        color: #fff;
+        margin: 0 2px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .main-slide .current {
+        background-color: #B61B1F;
+    }
+    .arrow a {
+        position: absolute;
+        top: 50%;
+        margin-top: -31px;
+        display: block;
+        width: 28px;
+        height: 62px;
+        color: #fff;
+        text-align: center;
+        font: 22px/62px "simsun";
+        background: rgba(0,0,0,0.4);
+    }
+    .arrow a:hover {
+        background: rgba(0,0,0,0.7);
+    }
+    .arrow-left {
+        left: 0;
+        border-radius: 0 10px 10px 0;
+    }
+    .arrow-right {
+        right: 0;
+        border-radius: 10px 0 0 10px;
+    }
+    .main-news {
+        position: relative;
+        float: right;
+        margin-top: 12px;
+        overflow: hidden;
+    }
+    .main-news-faster {
+        width: 248px;
+        height: 372px;
+        border: 1px solid #E4E4E4;
+        margin-bottom: 5px;
+    }
+    .main-news-faster-top-title {
+        width: 218px;
+        height: 32px;
+        border-bottom: 1px dotted #E4E4E4;
+        padding: 0 15px;
+    }
+    .main-news-faster-top-title h3 {
+        float: left;
+        font:16px/32px "microsoft yahei";
+    }
+    .main-news-faster-top-title a {
+        float: right;
+        line-height: 32px;
+        font-family: consolas;
+    }
+    .main-news-faster-top-content {
+        width: 248px;
+        height: 130px;
+        border-bottom: 1px dashed #E4E4E4;
+    }
+    .main-news-faster-top-content a {
+        display: block;
+        height: 19px;
+        line-height: 24px;
+        padding: 5px 0 0 16px;
+    }
+    .main-news-faster-top-content span {
+        font-weight: 700;
+    }
+    .main-news-faster-bottom ul {
+        width: 255px;
+    }
+    .main-news-faster-bottom li {
+        position: relative;
+        float: left;
+        width: 62px;
+        height: 70px;
+        border: 1px solid #E4E4E4;
+        border-top: 0;
+        margin-left: -1px;
+        margin-top: -1px;
+    }
+    .main-news-faster-bottom a {
+        display: block;
+        height: 30px;
+        line-height: 30px;
+        padding-top: 40px;
+        text-align: center;
+    }
+    .main-news-faster-bottom i {
+        position: absolute;
+        top: 15px;
+        left: 16px;
+        width: 25px;
+        height: 25px;
+        background: url(../images/fly.png) no-repeat left top;
+    }
+    .free {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 12px;
+        height: 15px;
+        background: url(../images/free.png) no-repeat;
+    }
+    /*main部分结束*/
+    /*today部分开始*/
+    .today {
+        position: relative;
+        padding-top: 10px;
+        overflow: hidden;
+    }
+    .today-left {
+        float: left;
+    }
+    .today-left a {
+        display: block;
+        width: 210px;
+        height: 151px;
+        background: url(../images/today.png) no-repeat left bottom;
+    }
+    .today-right ul {
+        width: 450%;
+    }
+    .today-right {
+        position: relative;
+        width: 1000px;
+        float: left;
+    }
+    .today-right li {
+        float: left;
+        margin-right: 1px;
+    }
+    /*today部分结束*/
+
+    /*footer部分开始*/
+    .footer-top-slogen {
+        position: relative;
+        width: 100%;
+        height: 54px;
+        background-color: #F5F5F5;
+        margin: 40px 0 15px 0;
+        padding: 20px 0;
+    }
+    .footer-top-slogen-icon {
+        position: absolute;
+        left: 50%;
+    }
+    .footer-top-slogen-icon1 {
+        margin-left: -604px;
+    }
+    .footer-top-slogen-icon2 {
+        margin-left: -302px;
+    }
+    .footer-top-slogen-icon4 {
+        margin-left: 302px;
+    }
+    .footer-top-shopping {
+        border-bottom: 1px solid #E5E5E5;
+    }
+    .footer-top-shopping dl {
+        float: left;
+    }
+    .footer-top-shopping dt,.coverage h3 {
+        width: 199px;
+        height: 35px;
+       font: 16px/35px "microsoft yahei";
+    }
+    .footer-top-shopping dd {
+        height: 20px;
+        line-height: 20px;
+    }
+    .footer-top-shopping .last-dl {
+        width: 100px;
+    }
+    .coverage {
+        float: right;
+        width: 186px;
+        height: 169px;
+        margin-right: 40px;
+        padding-left: 17px;
+        background: url(../images/china.png) no-repeat left bottom;
+    }
+    .coverage a {
+        float: right;
+    }
+    .footer-bottom-links  {
+        height: 36px;
+        line-height: 36px;
+        text-align: center;
+        margin-top: 11px;
+    }
+    .footer-bottom-links a {
+        margin: 0 9px;
+    }
+    .footer-bottom-copyright {
+        text-align: center;
+    }
+    .footer-bottom-imgs {
+        text-align: center;
+        margin: 13px 0 0 30px;
+    }
+    /*footer部分结束*/
